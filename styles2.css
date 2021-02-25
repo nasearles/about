@@ -106,7 +106,7 @@ body {
     opacity: 0.8;
     display: block;
     float:left;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .context {
@@ -120,57 +120,64 @@ body {
     padding:20px 40px 40px 40px;
     display:block;
     float:left;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .mebox {
-    width: 35%;
-    margin-top: 80px;
-    opacity: 0.8;
-    background-color: #181818;
-    height: 40%;
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0.9;
     float: left;
-    top: 100px;
-    position:absolute;
+    top: 20px;
+    height: 50%;
+    position: absolute;
+    background-color: #181818;
 }
 
 .metext {
-    width: 80%;
-    margin-top: 80px;
-    top: 100px;
-    height: 40%;
+    width: 90%;
+    margin-top: 40px;
+    height: 50%;
     font-family: small-caps;
     font-size: 20px;
     padding: 20px 40px 40px 40px;
     color: #F5F5F5;
     float: left;
-    position: relative;
+    position: absolute;
+  
 }   
 
 .skillbox {
 
-    height: 60%;
+    height: 90%;
     background-color: #181818;
     margin-top: 80px;
     margin-right:40px;
-    margin-left:40px;
+    width: 80%;
+    margin-left:80px;
     opacity: 0.8;
     float: left;
     display: block;
+    position: relative;
 
 }
 
 .skilltext {
     width: 80%;
-    margin-top: 80px;
-    top: 100px;
-    height: 80%;
+
+    height: 100%;
+  
     font-family: small-caps;
     font-size: 20px;
-    padding: 20px 40px 40px 40px;
+    padding: 100px 120px 0px 100px;
     color: #F5F5F5;
     float: left;
-    position: relative;
+    position: absolute;
+}
+
+.skilltext ul{
+    padding: 0px 0px 0px 60px;
+    list-style-type: circle;
 }
 
 .text {
@@ -255,7 +262,7 @@ img:hover{
 /*END NAVBAR*/
 
 .leftside {
-    width: 35%;
+    width: 30%;
     height:800px;
     position:static;
     float:left;
@@ -263,10 +270,11 @@ img:hover{
 }
 
 .middle {
-    width: 40%;
+    width: 45%;
     height:800px;
-    position: static;
+    position: relative;
     float: left;
+
 
 }
 
